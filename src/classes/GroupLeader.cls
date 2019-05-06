@@ -26,5 +26,7 @@ public with sharing class GroupLeader
         // if you don't say anything, the Group Leader will respond "Don't be shy, this is a safe place."
         // 
         // If you say anything else, the Group Leeader will respond "That's amazing!"
+
+        return null;
     }
 }
