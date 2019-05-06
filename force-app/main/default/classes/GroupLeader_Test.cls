@@ -1,5 +1,5 @@
 @isTest
-private class GroupLeaderTest 
+private class GroupLeader_Test 
 {
     @isTest
     private static void TestOhana()
