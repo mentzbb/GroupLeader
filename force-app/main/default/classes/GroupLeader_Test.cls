@@ -94,13 +94,6 @@ private class GroupLeader_Test
     }
 
     @isTest
-    private static void TestShoutBracketsDigits()
-    {
-        GroupLeader leader=new GroupLeader();
-        System.assertEquals('I\'m right here!', leader.yoLeader('BRACKETS AND DIGITS 1 23 ()[}'));
-    }
-
-    @isTest
     private static void TestSayNothing()
     {
         GroupLeader leader=new GroupLeader();
