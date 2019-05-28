@@ -7,9 +7,9 @@ public with sharing class GroupLeader
 
     public String yoLeader(String interaction) 
     {
-        // The group leader is a very consistent person who always responds the 
+        // The group leader is a very consistent conversationalist who always responds the 
         // same way to conversation starters. Populate this class with conditional
-        // code the responds according to the rules below:
+        // code that responds according to the rules below:
         //
         // if you say "Ohana", the Group Leader will respond "Ohana indeed."
         //
