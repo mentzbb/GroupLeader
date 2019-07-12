@@ -5,7 +5,7 @@ private class GroupLeader_Test
     private static void TestOhana()
     {
         GroupLeader leader=new GroupLeader();
-        System.assertEquals('Ohana Indeed.', leader.yoLeader('Ohana'));
+        System.assertEquals('Ohana indeed.', leader.yoLeader('Ohana'));
     }
 
     @isTest
@@ -62,7 +62,7 @@ private class GroupLeader_Test
     private static void TestShoutQuestion()
     {
         GroupLeader leader=new GroupLeader();
-        System.assertEquals('You don\'t need a micronphone!', leader.yoLeader('WHY ARE DEV GROUPS SO GOOD?'));
+        System.assertEquals('You don\'t need a microphone!', leader.yoLeader('WHY ARE DEV GROUPS SO GOOD?'));
     }
 
     @isTest
