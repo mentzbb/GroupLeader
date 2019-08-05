@@ -115,6 +115,13 @@ private class GroupLeader_Test
     }
 
     @isTest
+    private static void TestSayNothingNull()
+    {
+        GroupLeader leader = new GroupLeader();
+        System.assertEquals('Don\'t be shy, this is a safe place.', leader.yoLeader(null));
+    }
+
+    @isTest
     private static void TestDefault()
     {
         GroupLeader leader=new GroupLeader();
